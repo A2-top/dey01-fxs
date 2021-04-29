@@ -1,23 +1,21 @@
 <template>
   <header>
-      <img src="/imgs/logo.png" alt="" class="logo" />
-      <p>
-        <span>
-          <van-icon name="contact" size="2rem" />
-          <p>我的</p>
-        </span>
-        <span>
-          <van-icon name="wap-nav" size="2rem" />
-          <p>导航</p>
-        </span>
-      </p>
-    </header>
+    <img src="/imgs/logo.png" alt="" class="logo" />
+    <p>
+      <span>
+        <van-icon name="contact" size="2rem" />
+        <p>我的</p>
+      </span>
+      <span>
+        <van-icon name="wap-nav" size="2rem" />
+        <p>导航</p>
+      </span>
+    </p>
+  </header>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style lang='scss'>

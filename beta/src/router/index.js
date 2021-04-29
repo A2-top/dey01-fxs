@@ -13,6 +13,11 @@ const routes = [
     name: 'index',
     component: () => import('../views/Index')
   },
+  {
+    path: '/a',
+    name: 'a',
+    component: () => import('../views/a')
+  },
 ]
 
 const router = new VueRouter({
